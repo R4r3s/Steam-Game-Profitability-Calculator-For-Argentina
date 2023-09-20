@@ -1,3 +1,10 @@
+# Steam Game Profitability Calculator For Argentina
+
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Issues](https://img.shields.io/github/issues/R4r3s/Steam-Marketplace-Linker-For-Badge-Page)
+![Stars](https://img.shields.io/github/stars/R4r3s/Steam-Marketplace-Linker-For-Badge-Page)
+
 ## Installation
 
 To use this UserScript, you will need a userscript manager extension for your web browser, such as Tampermonkey for Chrome or Greasemonkey for Firefox. Additionally, you must install a CORS extension to allow cross-origin requests. Follow these steps to install the script:
