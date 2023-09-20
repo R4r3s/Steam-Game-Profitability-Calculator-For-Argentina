@@ -12,7 +12,7 @@ To use this UserScript, you will need a userscript manager extension for your we
    - To enable cross-origin requests required by this script, install the ["Allow CORS: Access-Control-Allow-Origin" Chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) from the Chrome Web Store.
 
 3. **Install the Script**:
-   - Visit the following URL to open the script on GitHub: [Steam Marketplace Linker On Badge Page](https://github.com/R4r3s/Steam-Marketplace-Linker-For-Badge-Page/raw/main/steam-game-profitability.user.js).
+   - Visit the following URL to open the script on GitHub: [Steam Marketplace Linker On Badge Page](https://github.com/R4r3s/Steam-Game-Profitability-Calculator-For-Argentina/raw/main/steam-game-profitability.user.js).
    - Your userscript manager should detect the script and prompt you to install it. Click the "Install" or "Add" button in the prompt.
 
 ## Description
