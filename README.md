@@ -9,7 +9,7 @@ To use this UserScript, you will need a userscript manager extension for your we
 
 2. **Install a CORS Extension:**
 
-   - To enable cross-origin requests required by this script, install a CORS extension like "CORS Everywhere" for Firefox or "Allow CORS: Access-Control-Allow-Origin" for Chrome from your browser's extension store.
+   - To enable cross-origin requests required by this script, install the ["Allow CORS: Access-Control-Allow-Origin" Chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) from the Chrome Web Store.
 
 3. **Create a New Script:**
 
@@ -43,5 +43,9 @@ This UserScript calculates the profitability of a Steam game in Argentina. It do
 Enjoy using the Steam Game Profitability Calculator For Argentina!
 
 ---
+
+**Author**: R4r3s
+
+**GitHub Repository**: [Link to GitHub Repository](https://github.com/your-username/your-repo-name)
 
 If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository.
