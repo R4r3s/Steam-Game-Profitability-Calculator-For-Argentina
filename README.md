@@ -1,45 +1,52 @@
 # Steam Game Profitability Calculator For Argentina
 
-![GitHub](https://img.shields.io/github/license/yourusername/steam-game-profitability-calculator)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/steam-game-profitability-calculator)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/steam-game-profitability-calculator)
-![GitHub issues](https://img.shields.io/github/issues-raw/yourusername/steam-game-profitability-calculator)
-
-## Description
-
-The Steam Game Profitability Calculator For Argentina is a userscript that calculates the profitability of a Steam game for the Argentina region based on its price and market card prices. It helps users determine whether purchasing a game for trading cards is profitable.
-
-This userscript fetches the game's price and card prices from the Steam store and calculates the potential profit in Argentine Pesos (ARS) based on a customizable exchange rate. It then displays the calculated profitability on the game's store page.
+This UserScript calculates the profitability of a Steam game in Argentina based on its price and the market card prices. It's a handy tool for Steam users in Argentina to determine whether buying a game and selling its cards on the Steam Market could result in a profit.
 
 ## Installation
 
-1. **Install a Userscript Manager**:
+To use this UserScript, you will need a userscript manager extension for your web browser, such as Tampermonkey for Chrome or Greasemonkey for Firefox. Follow these steps to install the script:
 
-   Before you can use this script, you need to install a userscript manager in your browser. We recommend using [Tampermonkey](https://www.tampermonkey.net/) for Chrome or [Greasemonkey](https://www.greasespot.net/) for Firefox.
+1. **Install a Userscript Manager:**
 
-2. **Install the Userscript**:
+   - If you are using Chrome, install the Tampermonkey extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+   - If you are using Firefox, install the Greasemonkey extension from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) page.
 
-   Once you have a userscript manager installed:
+2. **Create a New Script:**
 
-   - Click on the [Install Userscript](https://github.com/yourusername/steam-game-profitability-calculator/raw/main/steam-game-profitability-calculator.user.js) link to install the script.
+   - Click on the Userscript manager icon in your browser and select "Create a new script."
+   - Delete any template code that appears and paste the code from this GitHub repository's [script.js](https://github.com/your-username/your-repo-name/blob/main/script.js) file into the new script editor.
+
+3. **Save the Script:**
+
+   - After pasting the code, save the script by clicking the disk icon or pressing `Ctrl + S` (or `Cmd + S` on Mac).
+
+4. **Install the Script:**
+
+   - The script should now be saved in your Userscript manager. Make sure it's enabled.
+
+## Description
+
+This UserScript calculates the profitability of a Steam game in Argentina. It does so by fetching the game's current price on Steam and the prices of its trading cards on the Steam Market. It then calculates the potential profit based on these prices.
 
 ## Usage
 
-1. **Visit a Steam Game Page**:
+1. Open a Steam game's store page on [store.steampowered.com](https://store.steampowered.com/app/*).
 
-   Navigate to the Steam store page of a game you want to assess.
+2. The script will automatically run and calculate the profitability of the game.
 
-2. **Profitability Calculation**:
+3. A message will be displayed on the page indicating whether there is potential profit ("ARS$" followed by the profit amount) or no profit.
 
-   The script will automatically calculate the profitability of the game based on the exchange rate you've set (default is 350 ARS to 1 USD).
+## Note
 
-3. **Profitability Display**:
+- The script uses a `regionPriceRatio` variable, which you can manually update with the appropriate value for your region if needed.
+- Ensure that your browser allows CORS (Cross-Origin Resource Sharing) for the script to fetch data from Steam's API.
 
-   The calculated profitability will be displayed on the game's store page, helping you decide whether it's worth purchasing the game for trading cards.
+Enjoy using the Steam Game Profitability Calculator For Argentina!
 
-## Customization
+---
 
-You can customize the exchange rate by modifying the `regionPriceRatio` variable in the script. Replace the value with the desired exchange rate.
+**Author**: R4r3s
 
-```javascript
-const regionPriceRatio = 350; // Update this with the exchange rate you want
+**GitHub Repository**: [Link to GitHub Repository](https://github.com/your-username/your-repo-name)
+
+If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository.
