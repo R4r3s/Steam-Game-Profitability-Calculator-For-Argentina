@@ -17,7 +17,7 @@ To use this UserScript, you will need a userscript manager extension for your we
 
 ## Description
 
-This UserScript calculates the profitability of a Steam game in Argentina. It does so by fetching the game's current price on Steam and the prices of its trading cards on the Steam Market. It then calculates the potential profit based on these prices.
+This UserScript calculates the profitability of a Steam game in Argentina. It does so by fetching the game's current price on Steam and the prices of its trading cards on the Steam Market. It then calculates the potential profit based on these prices and enabled it.
 
 ## Usage
 
