@@ -9,7 +9,7 @@ To use this UserScript, you will need a userscript manager extension for your we
 
 2. **Install a CORS Extension:**
 
-   - To enable cross-origin requests required by this script, install the ["Allow CORS: Access-Control-Allow-Origin" Chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) from the Chrome Web Store.
+   - To enable cross-origin requests required by this script, install the ["Allow CORS: Access-Control-Allow-Origin" Chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) from the Chrome Web Store and enabled it.
 
 3. **Install the Script**:
    - Visit the following URL to open the script on GitHub: [Steam Game Profitability Calculator For Argentina Page](https://github.com/R4r3s/Steam-Game-Profitability-Calculator-For-Argentina/raw/main/steam-game-profitability.user.js).
@@ -17,7 +17,7 @@ To use this UserScript, you will need a userscript manager extension for your we
 
 ## Description
 
-This UserScript calculates the profitability of a Steam game in Argentina. It does so by fetching the game's current price on Steam and the prices of its trading cards on the Steam Market. It then calculates the potential profit based on these prices and enabled it.
+This UserScript calculates the profitability of a Steam game in Argentina. It does so by fetching the game's current price on Steam and the prices of its trading cards on the Steam Market. It then calculates the potential profit based on these prices.
 
 ## Usage
 
