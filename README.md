@@ -16,7 +16,7 @@ To use this UserScript, you will need a userscript manager extension for your we
 
 2. **Install a CORS Extension:**
 
-   - To enable cross-origin requests required by this script, install the ["Allow CORS: Access-Control-Allow-Origin" Chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) from the Chrome Web Store and enabled it.
+   - To enable cross-origin requests required by this script, install the [CORS Unblock](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino/related) from the Chrome Web Store and enabled it.
 
 3. **Install the Script**:
    - Visit the following URL to open the script on GitHub: [Steam Game Profitability Calculator For Argentina Page](https://github.com/R4r3s/Steam-Game-Profitability-Calculator-For-Argentina/raw/main/steam-game-profitability.user.js).
