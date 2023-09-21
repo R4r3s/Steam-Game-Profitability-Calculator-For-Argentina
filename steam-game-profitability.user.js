@@ -67,7 +67,17 @@
 
             // Create a new element to display the profitability
             const profitabilityElement = document.createElement('div');
-            profitabilityElement.textContent = `Profitability: ${profit > 0 ? "ARS$" + profit : "No Profit"}`;
+            profitabilityElement.textContent = `Profitability: `;
+
+            // Set the text color based on profitability
+            if (profit > 0) {
+                profitabilityElement.textContent += `ARS$${profit}`;
+                profitabilityElement.style.color = "lime";
+            } else {
+                profitabilityElement.textContent += "No Profit";
+                profitabilityElement.style.color = "red";
+            }
+
             profitabilityElement.style.fontSize = "18px"; // Optional: Adjust the font size
 
             // Find an appropriate location on the page to insert the profitability element
