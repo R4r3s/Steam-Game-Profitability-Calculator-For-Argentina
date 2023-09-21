@@ -1,6 +1,6 @@
 # Steam Game Profitability Calculator For Argentina
 
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Issues](https://img.shields.io/github/issues/R4r3s/Steam-Marketplace-Linker-For-Badge-Page)
 ![Stars](https://img.shields.io/github/stars/R4r3s/Steam-Marketplace-Linker-For-Badge-Page)
